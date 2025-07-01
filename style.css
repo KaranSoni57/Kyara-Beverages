@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  font-family: "Satisfy";
+  margin: 0;
+  padding: 0;
+  color: #591bab;
+}
+.hero {
+  background-color: #deafb5;
+  align-content: center;
+  justify-items: center;
+  color: #591bab;
+  height: 100vh;
+}
+
+.hero > h1 {
+  color: #591bab;
+  font-size: 100px;
+  z-index: 1;
+  position: relative;
+}
+.tag {
+  color: #591bab;
+  font-size: 35px;
+}
+.about {
+  margin: 20px 190px;
+}
+.menu {
+  margin: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+}
+.drinks {
+  border-radius: 50px;
+  background-color: #deafb5;
+  color: #591bab;
+  width: 300px;
+  align-items: center;
+
+  padding: 20px;
+}
+.drinks > img {
+  width: 300px;
+  height: 300px;
+  align-self: center;
+  border-radius: 50px;
+}
+.dT {
+  text-align: center;
+  margin: 30px;
+}
+.conc > h1 {
+  margin: 30px;
+  text-align: center;
+}
+.conc > img {
+  height: 50px;
+  margin: 10px 30px;
+}
+.conc {
+  justify-items: center;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.hero > img {
+  height: 50px;
+}
